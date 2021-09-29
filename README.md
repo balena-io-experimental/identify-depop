@@ -21,3 +21,4 @@ Run the script with the following command:
 
 > You can find you `$FLEET_ID` from the url, for example https://dashboard.balena-cloud.com/fleets/1234567, where 1234567 is the `$FLEET_ID`.
 
+The script will create a `suspect_devices.txt` file containing a list of the UUIDs of the devices with the missing I2C RGB LED controller.
